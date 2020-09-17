@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Hauteskundeak {
 
-	private ArrayList<String> mahaiak = new ArrayList<>();
+	private final ArrayList<String> mahaiak = new ArrayList<>();
 
 	@Override
 	public String toString() {
